@@ -1,0 +1,27 @@
+.h2Text {
+  font-family: "Goudy", Arial;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+.h3Text {
+  font-family: "Goudy", Arial;
+  text-align: center;
+}
+.h5Text {
+  font-family: "Gothic", Arial;
+  letter-spacing: 0.1em;
+}
+
+.h6Text {
+  font-family: "Gothic", Arial;
+  /* color: #405a7a; */
+  color: #969696;
+  text-transform: uppercase;
+  margin-right: 0.6em;
+  min-width: 80px;
+  text-align: right;
+}
+
+.categorySelected {
+  filter: brightness(100%) saturate(1);
+}

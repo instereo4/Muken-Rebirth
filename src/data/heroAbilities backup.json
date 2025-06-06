@@ -1,0 +1,554 @@
+{
+  "icebreaker": {
+    "1": {
+      "skillname": "Frost Attack",
+      "description": "Each basic attack applies 1 Frost Stack on target.",
+      "STACK DURATION:": "",
+      "%SLOW PER STACK:": "",
+      "FREEZE DURATION:": "",
+      "BREAK MAX DAMAGE:": ""
+    },
+    "2": {
+      "skillname": "Freezing Gust",
+      "description": "Casts an icy breath causing knockback and applying Frost Stacks on enemies. Recharges ability by attacking.",
+      "MIN STACK APPLIED:": "",
+      "MAX STACK APPLIED:": "",
+      "HITS TO RECHARGE:": "",
+      "PROJ RADIUS:": "",
+      "PROJ DISTANCE:": "",
+      "PROJ SPEED:": ""
+    },
+    "3": {
+      "skillname": "Absolute Zero",
+      "description": "Summons a crystal shard that applies Frost Stack at intervals to nearby enemies.",
+      "STACK INTERVALS:": "",
+      "VISION RADIUS (NIGHT):": "",
+      "VISION RADIUS (DAY):": "",
+      "HITS TO DESTROY:": "",
+      "SHARD LIFETIME:": ""
+    },
+    "4": {
+      "skillname": "Blink ' n ' Break",
+      "description": "Blinks on a unit target. If the target is a Frozen enemy, then perform an Ice Break that deals magic damage to the target and consumes no charge.",
+      "BREAK DAMAGE:": ""
+    }
+  },
+  "stellar_witch": {
+    "1": {
+      "skillname": "Shooting Star",
+      "description": "Adds a star effect to Genuine's attacks, increasing attack range, projectile speed and dealing magical damage insted of physical damage.",
+      "SHOT DAMAGE:": "",
+      "BONUS ATK RANGE:": "",
+      "BONUS PROJ SPEED:": ""
+    },
+    "2": {
+      "skillname": "Fallen Star",
+      "description": "Releases a dark wave that fears enemies and receive mana per enemy hit.",
+      "WAVE RADIUS:": "",
+      "WAVE DISTANCE:": "",
+      "WAVE SPEED:": "",
+      "FEAR DURATION:": "",
+      "MANA GAIN PER HIT:": ""
+    },
+    "3": {
+      "skillname": "Travel Star",
+      "description": "MAX SLEEP DURATION:",
+      "AOE RADIUS:": "",
+      "SHARD SPEED:": "",
+      "SHARD DISTANCE:": ""
+    },
+    "4": {
+      "skillname": "Genuine Star",
+      "description": "BASE <font color='#0050f0'>INT</font> (NIGHT):",
+      "BONUS <font color='#00a000'>AGI</font> (BUFF):": "",
+      "BUFF DURATION (NIGHT):": "",
+      "BUFF DURATION (DAY):": "",
+      "CAST RADIUS:": "",
+      "STARFALL DAMAGE:": "",
+      "STARFALL EFFECT RADIUS:": ""
+    }
+  },
+  "strider": {
+    "1": {
+      "skillname": "Zangetsu",
+      "description": "Spins cutting enemies and causing bleed to them.",
+      "SPIN RADIUS:": "",
+      "SPIN DURATION:": "",
+      "SPIN DAMAGE:": "",
+      "BLEED DURATION:": "",
+      "BLEED DAMAGE:": ""
+    },
+    "2": {
+      "skillname": "Kamaitachi Kunai",
+      "description": "Throws a kunai that Slows the enemy target. When the Slow ends, the target is Silenced, and any damage you or a copy of yourself deal to them will be converted to healing for you when the Silence ends. The first damage you or a copy deals breaks the Slow, starting the Silence.",
+      "%SLOW:": "",
+      "SLOW DURATION:": "",
+      "SILENCE DURATION:": "",
+      "%LIFESTEAL:": "",
+      "MAX HEAL:": ""
+    },
+    "3": {
+      "skillname": "Silent Step",
+      "description": "Blinks to a location and throws shurikens that damage enemies in the selected direction.",
+      "SHURIKEN INTERVALS:": "",
+      "SHURIKEN AMOUNT:": "",
+      "SHURIKEN SPEED:": "",
+      "SHURIKEN RANGE:": "",
+      "SHURIKEN DAMAGE:": ""
+    },
+    "4": {
+      "skillname": "Shadow Chase",
+      "description": "You briefly vanishes from the battlefield, and reappear at a random position along with additional clones.",
+      "RADIUS:": "",
+      "VANISH DURATION:": "",
+      "%CLONE OUTGOING DAMAGE REDUCTION:": "",
+      "%CLONE DAMAGE TAKEN:": "",
+      "CLONE LIFETIME:": "",
+      "NUMBER OF CLONES:": ""
+    }
+  },
+  "nocturne": {},
+  "ancient_one": {
+    "1": {
+      "skillname": "Ancient Power",
+      "description": "Sets <font color='#00a000'>AGI</font> to 0 and increases Base Attack Time. Each attack deals critical damage, and for each physical damage dealt, stuns the target based on the damage dealt.",
+      "BASE ATTACK TIME:": "",
+      "%STUN DURATION:": ""
+    },
+    "2": {
+      "skillname": "Seismic Leap",
+      "description": "Jumps and hits the ground dealing physical damage to all enemies in the selected area.",
+      "DAMAGE PER HIT:": "",
+      "RADIUS:": ""
+    },
+    "3": {
+      "skillname": "Tranquil Walk of Peace",
+      "description": "DURATION:",
+      "SELF MOVESPEED LIMIT:": "",
+      "INITIAL WAVE RADIUS:": "",
+      "WAVE RADIUS:": "",
+      "WAVE INTERVAL:": "",
+      "MAX PETRIFY DURATION:": "",
+      "Tranquil Walk of Peace (CANCEL)": "",
+      "Interrupts Tranquil Walk of Peace's buff.": ""
+    },
+    "4": {
+      "skillname": "Final Mighty Blow",
+      "description": "%MINIMAL ENERGY COST:",
+      "CRACK DELAY:": "",
+      "%DAMAGE:": "",
+      "%INCOMING DAMAGE AS ENERGY:": "",
+      "%OUTGOING DAMAGE AS ENERGY:": ""
+    }
+  },
+  "paladin": {
+    "1": {
+      "skillname": "Kyrie Eleison",
+      "description": "Creates a magic barrier on himself that blocks physical attacks until a number of hits are blocked or until its durability wears off.",
+      "DURATION:": "",
+      "BLOCK HITS:": ""
+    },
+    "2": {
+      "skillname": "Sacrifice",
+      "description": "Links to an allied hero to take part of the damage taken in its place as Holy Damage.",
+      "DURATION:": "",
+      "MAX RANGE:": "",
+      "%ABSORPTION:": ""
+    },
+    "3": {
+      "skillname": "Holy Cross",
+      "description": "Summons a Grand Cross around you, dealing Holy Damage over time to you based on your max health. All enemies within the Grand Cross are Silenced and take Holy Damage equal to the damage you dealt to yourself.",
+      "RADIUS:": "",
+      "DURATION:": "",
+      "%MAX HP AS DAMAGE:": ""
+    },
+    "4": {
+      "skillname": "Divine Smite",
+      "description": "Deals additional Pure Damage on the attack, healing you for part of the damage dealt.",
+      "DAMAGE:": "",
+      "%HEAL:": "",
+      "Faith": "",
+      "Increases your max health and grants an aura that increases resistance to Holy-property Damage to allies.": "",
+      "AURA RADIUS:": "",
+      "BONUS MAX HEALTH:": "",
+      "%HOLY DAMAGE REDUCTION:": ""
+    }
+  },
+  "solaire_templar": {
+    "1": {
+      "skillname": "Assumptio",
+      "description": "Emits an Aura that increases Armor, and it's increased for everyone based on the number of allies within the aura. Aura range is global during daytime.",
+      "AURA RADIUS (NIGHT):": "",
+      "ARMOR PER STACK:": ""
+    },
+    "2": {
+      "skillname": "Divine Protection",
+      "description": "Prevents an ally from taking any damage.<br>Can't self cast.",
+      "DURATION:": ""
+    },
+    "3": {
+      "skillname": "Heaven's Hammer",
+      "description": "Fires your hammer, striking one target and bouncing to others, dealing Holy Damage and slowing them. The Holy Damage is based on your current Armor. The duration of the damage and slow decreases with each bounce.",
+      "BOUNCE RANGE:": "",
+      "BOUNCE HITS:": "",
+      "DAMAGE HIT:": "",
+      "SLOW:": "",
+      "BASE SLOW DURATION:": "",
+      "%REDUCTION PER HIT:": ""
+    },
+    "4": {
+      "skillname": "Praise the Sun",
+      "description": "Summons beams of light from the sky that randomly heal allied heroes at intervals. The more heroes alive, the shorter the interval between beams.",
+      "DURATION (DAY):": "",
+      "DURATION (NIGHT):": "",
+      "BEAM HEAL:": "",
+      "BASE INTERVAL:": "",
+      "%MIN HEALTH TO HEAL:": "",
+      "Redemption": "",
+      "Returns a single dead allied hero to life.": "",
+      "%HP/MP AFTER REBORN:": ""
+    }
+  },
+  "thronekeeper": {
+    "1": {
+      "skillname": "My War",
+      "description": "Increases <font color='#a00000'>STR</font> whenever you attack an enemy.",
+      "STACK DURATION:": "",
+      "MAX STACK:": ""
+    },
+    "2": {
+      "skillname": "Rearguard",
+      "description": "Gives you a chance to block damage and stun enemies when they attacks you from side or behind.",
+      "%CHANCE (SIDE):": "",
+      "%CHANCE (BACK):": "",
+      "STUN MULT:": ""
+    },
+    "3": {
+      "skillname": "Forward",
+      "description": "Focuses for a few seconds and dashes forward, dealing damage and stun on enemies. The stun and damage is based on concentrated time.",
+      "MAX CHARGE:": "",
+      "DASH WIDTH:": "",
+      "TURN RATE:": "",
+      "DASH SPEED:": "",
+      "MAX DAMAGE:": "",
+      "STUN MULT:": ""
+    },
+    "4": {
+      "skillname": "Inner Flame",
+      "description": "Unleashes a flame in front of you that slow, burns enemies, and reduces their <font color='#a00000'>STR</font>.",
+      "RANGE:": "",
+      "BURN DURATION:": "",
+      "DAMAGE:": "",
+      "BURN DPS:": "",
+      "<font color='#a00000'>STR</font> REDUCTION:": "",
+      "SLOW:": ""
+    }
+  },
+  "dead_crusader": {
+    "1": {
+      "skillname": "Curse Rift",
+      "description": "CURSE DURATION:",
+      "<font color='#a00000'>STR</font> REDUCTION:": "",
+      "%HEALTH STOLEN:": "",
+      "STUN DURATION:": "",
+      "STUN COOLDOWN:": ""
+    },
+    "2": {
+      "skillname": "Putrid Barrier",
+      "description": "Creates an all damage barrier that absorbs a percentage of the damage. The barrier decreases over time. When the barrier is expired or is destroyed it will burst and deals damage and roots in an area around it.",
+      "BARRIER AMOUNT:": "",
+      "%DAMAGE ABSORPTION:": "",
+      "BARRIER DECAY:": "",
+      "EXPLOSION RADIUS:": "",
+      "EXPLOSION DAMAGE:": "",
+      "ROOT DURATION:": ""
+    },
+    "3": {
+      "skillname": "Unholy Feast",
+      "description": "%STEAL CHANCE:",
+      "STEAL DURATION:": "",
+      "STEAL DURATION (DEATH):": "",
+      "MAX STEAL PER HERO:": "",
+      "REINCARNATION MAX STACK:": "",
+      "REINCARNATION STACK COST:": "",
+      "REINCARNATION DELAY:": "",
+      "%HP/MP AFTER REINCARNATE (PER STACK):": ""
+    },
+    "4": {
+      "skillname": "Aura of the Undead",
+      "description": "Activates an debuff aura that reduces attack range (ranged units), and drains enemies health. Your life is also drained while the aura is active.",
+      "AURA RADIUS:": "",
+      "FLAG RADIUS:": "",
+      "ATTACK RANGE REDUCTION:": "",
+      "HP DRAIN:": "",
+      "Dead Zone": "",
+      "Places a flag at your position to emit the Aura of the Undead in that location. Automatically the aura on you is deactivated. A new flag is replaced at the location of your death.": ""
+    }
+  },
+  "bloodstained": {
+    "1": {
+      "skillname": "Blood Rage",
+      "description": "Launch into a maddened rage. Part of the damage taken is converted into Attack Damage.",
+      "DURATION:": "",
+      "%DAMAGE GAIN:": ""
+    },
+    "2": {
+      "skillname": "Bloodsteal",
+      "description": "Grants Lifesteal and Status Resistance based on his health deficit percentage. The lesser your health percentage, the greater the bonus.",
+      "%MIN BONUS:": "",
+      "%MAX BONUS:": ""
+    },
+    "3": {
+      "skillname": "Curseness Bond",
+      "description": "Creates a bond with an enemy target, redirecting some of the damage taken by both of them to each other. If the distance between them exceeds the maximum range, the bond will be broken.",
+      "DURATION:": "",
+      "%SHARED DAMAGE:": "",
+      "MAX RANGE:": ""
+    },
+    "4": {
+      "skillname": "Still Bleeding",
+      "description": "Summons a Blood Seal on the target area, inflicting Bleeding and Leash on enemies. Upon leaving the area, enemies will Bleed for a few seconds.",
+      "RADIUS:": "",
+      "BLOOD SEAL DURATION:": "",
+      "BLEED DURATION:": "",
+      "BLEED DAMAGE:": ""
+    }
+  },
+  "soul_eater": {
+    "1": {
+      "skillname": "Wandering Ghosts",
+      "description": "SPIRIT DURATION:",
+      "HITS TO DISAPPEAR:": "",
+      "SPIRIT MOVESPEED:": "",
+      "SPIRIT DAMAGE:": "",
+      "%DAMAGE TO HEAL AMOUNT:": "",
+      "NUMBER OF SPIRITS:": "",
+      "Soul Absorption": "",
+      "Absorbs a spirit, receiving the accumulated healing.": ""
+    },
+    "2": {
+      "skillname": "Door to the Abyss",
+      "description": "Calls souls from the underworld to curse the target, causing them to take damage per second and Slow.",
+      "INITIAL DAMAGE:": "",
+      "DAMAGE PER SEC:": "",
+      "%SLOW:": "",
+      "CURSE DURATION:": ""
+    },
+    "3": {
+      "skillname": "Curse Zone",
+      "description": "Summons a group of spirits that circle around you. Enemies within the area receive Break and have healing and health regeneration disabled. Spirits deal damage when passing through them.",
+      "DURATION:": "",
+      "RADIUS:": "",
+      "NUMBER OF SPIRITS:": "",
+      "SPIRIT DAMAGE:": ""
+    },
+    "4": {
+      "skillname": "Requiem of the Haunted Souls",
+      "description": "BARRIER DURATION:",
+      "BARRIER AMOUNT:": "",
+      "DAMAGE ABSORPTION:": "",
+      "SUMMON SPIRIT RANGE:": "",
+      "NUMBER OF SPIRITS:": "",
+      "SPIRIT DAMAGE:": "",
+      "SILENCE DURATION:": ""
+    },
+    "5": {
+      "skillname": "Black Banquet",
+      "description": "SOULS PER HERO:",
+      "HEAL:": "",
+      "SPECTRAL FORM DURATION:": "",
+      "SPECTRAL FORM ATK DAMAGE:": ""
+    }
+  },
+  "lawbreaker": {
+    "1": {
+      "skillname": "Grenade Launch",
+      "description": "Launches a grenade at the target area that explodes after a delay, dealing damage to enemies and reducing their Armor.",
+      "CAST RANGE (MIN):": "",
+      "CAST RANGE (MAX):": "",
+      "RADIUS:": "",
+      "ARMOR REDUCTION:": "",
+      "EXPLOSION DELAY:": "",
+      "DEBUFF DURATION:": "",
+      "DAMAGE:": ""
+    },
+    "2": {
+      "skillname": "Make It Rain",
+      "description": "Summons a thousands of bullets to rain down onto an area, causing damage overtime and slow to all enemies within.",
+      "RADIUS:": "",
+      "MIN DELAY:": "",
+      "DURATION:": "",
+      "SLOW:": "",
+      "DAMAGE PER SECOND:": ""
+    },
+    "3": {
+      "skillname": "Elusive Blink",
+      "description": "Blinks in one direction at a fixed distance."
+    },
+    "4": {
+      "skillname": "Pulverize",
+      "description": "Performs a burst of shots in front of you. Bullets recharge over time and will reload faster by standing still.",
+      "MIN BULLETS TO CAST:": "",
+      "BULLET OVERLOAD:": "",
+      "CD PER SHOT:": "",
+      "RELOAD TIME:": "",
+      "DAMAGE PER SHOT:": "",
+      "SPEED MULTIPLIER:": "",
+      "SELF MOVESPEED SLOW:": "",
+      "BONUS SHOT RANGE:": ""
+    }
+  },
+  "bocuse": {
+    "1": {
+      "skillname": "Julienne",
+      "description": "Slashes an enemy multiple times. Each slash has a chance to not consume a charge.",
+      "MIN CHARGE TO CAST:": "",
+      "%CHANCE TO MAINTAIN THE CHARGE:": "",
+      "MOVESPEED LIMIT:": "",
+      "MAX RANGE:": "",
+      "SPEED MULT:": ""
+    },
+    "2": {
+      "skillname": "Viande Flambée",
+      "description": "PROJ SPEED:",
+      "DURATION:": "",
+      "MOVESPEED:": "",
+      "HEAL PER SEC:": "",
+      "%MISS CHANCE:": "",
+      "DAMAGE PER SEC:": ""
+    },
+    "3": {
+      "skillname": "Foie Gras",
+      "description": "Swallows an ally, banishing them until you spit them out. The ally gains Health Regen while you are slowed and have your <font color='#f0a000'>CON</font> increased. You begin to lose health if you take too long to spit them out.",
+      "HEALTH REGEN (ALLY):": "",
+      "BONUS <font color='#f0a000'>CON</font>:": "",
+      "SLOW:": "",
+      "SAFE DURATION:": "",
+      "HP LOSS PER SEC (AFTER SAFE DURATION):": "",
+      "EJECT RANGE:": ""
+    },
+    "4": {
+      "skillname": "Marque de Sauce",
+      "description": "Whenever you attack or slash, you have a chance to mark the target with a sauce that causes Bleeding (stackable).",
+      "%CHANCE:": "",
+      "STACK DURATION:": "",
+      "BLEEDING DAMAGE:": ""
+    },
+    "5": {
+      "skillname": "Mise en Place",
+      "description": "Bocuse enters rage mode, slashing all enemies in front of him. Grants Lifesteal and increases Status Resistance.",
+      "DURATION:": "",
+      "SPEED MULT:": "",
+      "%LIFESTEAL:": "",
+      "%STATUS RESISTANCE:": ""
+    }
+  },
+  "ravager": {},
+  "darkroot_gardener": {
+    "1": {
+      "skillname": "Darkroot Garden",
+      "description": "Generates a path of bushes that roots enemies.",
+      "PATH SPEED:": "",
+      "PATH RANGE:": "",
+      "BUSH LIFETIME:": "",
+      "ROOT DURATION:": ""
+    },
+    "2": {
+      "skillname": "Nature Armor",
+      "description": "Infuses the allied target with a protective coating which increases target's Armor, Magical Resistance and Health Regen. When taking damage, spawns seeds to heal allies.",
+      "DURATION:": "",
+      "ARMOR:": "",
+      "MAGICAL RESISTANCE:": "",
+      "HEALTH REGEN:": "",
+      "%DAMAGE AS SEED:": "",
+      "SEED TRACKING RANGE:": ""
+    },
+    "3": {
+      "skillname": "Vitalis Lotus",
+      "description": "Summons a flower that heals nearby allies and damages nearby enemies at intervals.",
+      "LIFETIME:": "",
+      "HITS TO DESTROY:": "",
+      "LOTUS MOVESPEED:": "",
+      "HEAL PER INTERVAL:": "",
+      "DAMAGE PER INTERVAL:": "",
+      "INTERVAL:": "",
+      "RADIUS:": ""
+    },
+    "4": {
+      "skillname": "Seeds of Ancient Tree",
+      "description": "Summons an overgrowth of vines and branches around a tree that roots enemies. For each ally in range, damages affected enemies at intervals and spawns a seed for each with healing based on the number of enemies affected. The Root duration is longer the closer the enemy is to the tree.",
+      "RADIUS:": "",
+      "ROOT MIN DURATION:": "",
+      "ROOT MAX DURATION:": "",
+      "DPS PER ALLY:": "",
+      "My Secret Garden": "",
+      "Regrows trees that have been cut down at the selected location and pushes all units out of that location.": "",
+      "CHANNEL TIME:": ""
+    }
+  },
+  "hunter": {
+    "1": {
+      "skillname": "Deadeye",
+      "description": "Fires a devastating shot that deals damage at global range, having a chance to kill the target and increase cooldown. The lower the target's health the greater the chance to kill him.",
+      "DAMAGE:": "",
+      "%KILL CHANCE MULTIPLIER:": ""
+    },
+    "2": {
+      "skillname": "Poison Shots",
+      "description": "Chop down a tree to get poison ammo.",
+      "BULLETS:": "",
+      "DURATION:": "",
+      "POISON DURATION:": "",
+      "POISON DPS:": "",
+      "POISON SLOW:": ""
+    },
+    "3": {
+      "skillname": "Scan",
+      "description": "Scans a location, revealing the entire area for a few seconds.",
+      "SCAN RADIUS:": "",
+      "SCAN DURATION:": ""
+    },
+    "4": {
+      "skillname": "Camouflage",
+      "description": "Becomes camouflaged by standing near a tree. Camouflage grants Tree Walking and bonus attack range but limits your movespeed.",
+      "MOVESPEED LIMIT:": "",
+      "BONUS ATTACK RANGE:": ""
+    }
+  },
+  "ritualist": {
+    "1": {
+      "skillname": "Healing Field",
+      "description": "Creates a healing field with the nature's force that heal allies over time.",
+      "RADIUS:": "",
+      "DURATION:": "",
+      "HEAL PER SECOND:": ""
+    },
+    "2": {
+      "skillname": "Lash of the Lizard King of the Crimson Witness",
+      "description": "DURATION:",
+      "RANGE LIMIT:": "",
+      "MOVESPEED LIMIT:": ""
+    },
+    "3": {
+      "skillname": "Fortune Hex",
+      "description": "Hexes a target ally, increasing their movespeed.",
+      "DURATION:": "",
+      "BONUS MOVESPEED:": "",
+      "Pyromancy": "",
+      "Adds fire property to your attacks.": "",
+      "BURN DURATION:": "",
+      "DAMAGE PER SECOND:": ""
+    },
+    "4": {
+      "skillname": "Tribal Ward",
+      "description": "Summons a ward that deals poison damage.",
+      "DURATION:": "",
+      "HITS TO DESTROY:": "",
+      "ADDITIONAL TARGETS (BOUNCE):": "",
+      "BOUNCE RANGE:": "",
+      "POISON DAMAGE:": "",
+      "POISON SLOW:": ""
+    }
+  },
+  "detonator": {}
+}

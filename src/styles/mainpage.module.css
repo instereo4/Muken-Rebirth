@@ -1,0 +1,41 @@
+.dashSubTitle {
+  min-width: 60px;
+  width: 120px;
+  height: 3px;
+  content: "";
+  background: linear-gradient(
+    to right,
+    #1a1a1a1d 0%,
+    #737373 50%,
+    #1a1a1a1d 100%
+  );
+  /* background-color: #131519 */
+}
+
+.rebirthContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.mukenLogo {
+  width: auto;
+  height: 100px;
+}
+
+.headerContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 10px 20px;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.LinkToHeroes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 20px;
+}
